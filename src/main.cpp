@@ -6,10 +6,11 @@
 //
 //======================================================
 
+#include <include/add.h>
 #include <iostream>
-#include "./add.h"
 
-int main(int argc, char** argv) {
+int main(int argc, char* argv[]) {
     std::cout << "1 + 2 = " << add(1, 2) << std::endl;
+    std::cin.get();
     return 0;
 }
