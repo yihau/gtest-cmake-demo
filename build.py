@@ -17,7 +17,7 @@ def clear():
 def build():
   os.mkdir('build')
   os.chdir('build')
-  os.system('cmake .. && make && make test')
+  os.system('cmake .. && make && ctest -V')
 
 if __name__ == '__main__':
   clear()
