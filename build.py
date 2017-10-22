@@ -10,9 +10,6 @@ def clear():
   # remove bin folder
   if os.path.exists('bin'):
     shutil.rmtree('bin')
-  # remove external folder
-  # if os.path.exists('external'):
-  #   shutil.rmtree('external')
 
 def build():
   os.mkdir('build')
