@@ -1,13 +1,9 @@
 language: cpp
+
 script:
   - cmake -P build.cmake
-# before_install:
-#   - sudo apt-get install cmake
 
 matrix:
-  allow_failures:
-    - env: ALLOW_FAILURES=true
-
   include:
     # OS X CMake
     - os: osx
