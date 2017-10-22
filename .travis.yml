@@ -1,5 +1,5 @@
 language: cpp
-scirpt:
+script:
   - cmake -P build.cmake
 addons:
   apt:
