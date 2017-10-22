@@ -1,7 +1,6 @@
 language: cpp
-compiler:
-  - clang
-  - gcc
+scirpt:
+  - cmake -P build.cmake
 addons:
   apt:
     sources:
@@ -9,5 +8,3 @@ addons:
     packages:
       - cmake-data
       - cmake
-scirpt:
-  - cmake -P build.cmake
